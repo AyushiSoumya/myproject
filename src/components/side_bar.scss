@@ -1,0 +1,95 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); 
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    
+    background-color:#379683;
+    white-space:nowrap;
+    Overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    margin: 0px;
+  width: 150px;
+  padding-left: 0px;
+  padding-right:0px;
+  
+}
+.options a:hover{
+  color: #05386b;
+}
+ .options p:hover{
+   background-color:#8ee4af;
+  
+ }
+.options p{
+ 
+  
+  font-weight: bolder;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+ background-color:#edf5e1;
+
+ 
+}
+.option{
+   font-family:Dancing Script;
+   color:#05386b;
+   text-decoration: none;
+   .optionName{
+     display: none;
+   }
+   
+   
+}
+
+ .options{ 
+  
+  margin: 0px;
+  display:inline-block;
+  flex-direction: column;
+  
+} 
+.option5{
+   
+  
+  ul{
+     
+    :hover{
+        background-color:#8ee4af;
+        box-shadow: #05386b;
+      }
+    padding: 0px;
+    
+    list-style: none;
+    display:none;
+    li{
+      padding-left: 5px;
+      color:#05386b;
+      font-weight: bolder;
+      font-family: "Dancing Script";
+      background-color:#edf5e1;
+      border: 1px solid black;
+    }
+  }
+  
+  }
+  
+// .option5:hover >ul{
+// display:block;
+// }
+@media screen and (max-width:768px){
+.container{
+height:auto;
+  
+}
+ul{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+}
+

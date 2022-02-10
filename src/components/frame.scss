@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+.frame_container{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width:75%;
+    height:520px;
+    text-align:center;
+    #frame{
+        display:flex;
+        align-items:center;
+        border: 1px solid black;
+        background-image: url(./pic2.PNG);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height:100%;
+        width:100%;
+        
+        #left{
+            color:beige;
+            margin-right:auto;
+           
+        }
+        #content{
+            display:block;
+            font-size:100px;
+            font-family:"Imperial Script";
+            color:beige;
+
+        }
+       
+    #right {
+        margin-left: auto;
+        color:beige;
+        }
+    
+       
+    }
+}
