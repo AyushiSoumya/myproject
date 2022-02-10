@@ -3,6 +3,6 @@ import "./about.scss"
 
 export default function About() {
     return (
-        <p>hello</p>
+        <p>hello ayushi</p>
     )
 }
