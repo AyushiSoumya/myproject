@@ -24,9 +24,15 @@
         #left{
             color:beige;
             margin-right:auto;
-            size:100px
+           
+             #left_arrow{
+                width: 100px;
+                height: 100px;
+             }
+            
            
         }
+        
         #content{
             display:block;
             font-size:100px;
@@ -38,7 +44,11 @@
     #right {
         margin-left: auto;
         color:beige;
-        size: 100px;
+       #right_arrow{
+        width: 100px;
+        height: 100px;
+       }
+        
         }
     
        
@@ -50,13 +60,20 @@
         padding-top: 0px;
         width: 85vw;
         height: 30vh;
-        #frame{
-            #left{
-                size: 40px;
+            #frame{
+             #left{
+                #left_arrow{
+                    height: 20px;
+                    width: 20px;
+                }
             }
             #right{
-                size: 40px;
-            }
+                
+                #right_arrow{
+                    height: 20px;
+                    width: 20px;
+                }
+            } 
             #content{
                 font-size:xx-large;
             }
