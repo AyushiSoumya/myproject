@@ -8,8 +8,8 @@
     margin-bottom:5px;
     padding-bottom: 25px;
     padding-top: 25px;
-    width:75%;
-    height:520px;
+    width:75vw;
+    height:75vh;
     text-align:center;
     #frame{
         display:flex;
@@ -24,6 +24,7 @@
         #left{
             color:beige;
             margin-right:auto;
+            size:100px
            
         }
         #content{
@@ -37,8 +38,28 @@
     #right {
         margin-left: auto;
         color:beige;
+        size: 100px;
         }
     
        
+    }
+}
+
+@media screen and (max-width:768px){
+    .frame_container{
+        padding-top: 0px;
+        width: 85vw;
+        height: 30vh;
+        #frame{
+            #left{
+                size: 40px;
+            }
+            #right{
+                size: 40px;
+            }
+            #content{
+                font-size:xx-large;
+            }
+        }
     }
 }

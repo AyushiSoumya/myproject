@@ -27,7 +27,7 @@ export default function Frame(props) {
 
 
                 }}>
-                    <AiOutlineLeft size="100px" /></div>
+                    <AiOutlineLeft /* size="100px" */ /></div>
                 <a> <div id="content">{props.heading[b]}</div></a>
                 <div id="right" onClick={() => {
                     let x = document.getElementById("frame");
@@ -43,7 +43,7 @@ export default function Frame(props) {
 
                     y.innerHTML = `${props.heading[b]}`;
 
-                }}> <AiOutlineRight size="100px" /></div>
+                }}> <AiOutlineRight /*  size="100px" */ /></div>
             </div>
         </div >
     )
