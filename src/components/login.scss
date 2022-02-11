@@ -24,6 +24,8 @@
             font-family: "Times New Roman";
             font-weight: bolder;
             padding-top:10px;
+            margin: auto; 
+            border: black 1px solid;
         }
         .content{
             font-family:"Courgette";
@@ -40,7 +42,7 @@
                text-align:left;
               white-space:nowrap;
                input{
-                   margin-right: 10px;
+                   
                    float:right;
                    background-color: #19535e;
             width:50%;
